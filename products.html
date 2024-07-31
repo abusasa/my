@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница товаров / услуг</title>
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body class="body__products">
+
+    <div class="navigation">
+        <div class="navigation__list navigation__list--bg">
+            <div class="navigation__item navigation__item--bg icon-photo"></div>
+            <div class="navigation__box navigation__box--bg icon-close">
+                Фон раздела товаров не содержит картинку - это просто однотонный цвет, в нашем случае - черный. Дело в том, что на фоне картинки плохо смотрятся фотографии товаров или услуг. В случае, если список из 10-20 и более товаров будет уходить вниз, картинку в качестве фона размесщать не стоит.
+            </div>
+        </div>
+        <div class="navigation__list navigation__list--prodlist">
+            <div class="navigation__item navigation__item--prodlist icon-view-tile"></div>
+            <div class="navigation__box navigation__box--prodlist icon-close">Товаров или услуг может быть много - больше размещенных 6 на этой странице. В рамках фиксированной стоимости сайта я подготавливаю и размещаю до 12 карточек товаров/услуг. Более значительное количество оплачивается дополнительно. 
+            </div>
+        </div>
+        <div class="navigation__list navigation__list--cart">
+            <div class="navigation__item navigation__item--cart icon-inbox-full"></div>
+            <div class="navigation__box navigation__box--cart icon-close">Превью, то есть предварительная карточка товара, содержит фотографию, заголовок и краткое описание. Фото товара или услуги нужны от вас, но если их нет, мы можем их подобрать самостоятельно. При наведении на карточку - она визуально выделяется в списке. При нажатии на карточку - вы перейдете на страницу товара или услуги. 
+            </div>
+        </div>
+    </div>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="logo__wrapper">
+                    <a href="index.html" class="header__logo logo"></a>
+                </div>
+                <div class="header__menu">
+                    <ul class="menu">
+                        <div class="menu__item"><a href="index.html" class="menu__link">ГЛАВНАЯ</a></div>
+                        <div class="menu__item"><a href="about.html" class="menu__link">О КОМПАНИИ</a></div>
+                        <div class="menu__item"><a href="products.html" class="menu__link">ТОВАР/УСЛУГИ</a></div>
+                        <div class="menu__item"><a href="contacts.html" class="menu__link">КОНТАКТЫ</a></div>
+                    </ul>
+                    <div class="menu-media">
+                        <div class="menu-trigger" id="menu01">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <ul class="menu-media__list">
+                            <div class="menu__item"><a href="index.html" class="menu__link">ГЛАВНАЯ</a></div>
+                            <div class="menu__item"><a href="about.html" class="menu__link">О КОМПАНИИ</a></div>
+                            <div class="menu__item"><a href="products.html" class="menu__link">ТОВАР/УСЛУГИ</a></div>
+                            <div class="menu__item"><a href="contacts.html" class="menu__link">КОНТАКТЫ</a></div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="products">
+        <div class="container">
+            <div class="products__inner inner">
+                <a class="products__item" href="product.html">
+                    <img src="images/prod1.jpg" alt="" class="products__img">
+                    <div class="products__title">
+                        НАЗВАНИЕ ТОВАРА ИЛИ УСЛУГИ
+                    </div>
+                    <div class="products__text">
+                        Краткое описание товара или услуги - название, модель, предназначение. Сюда можно добавить цену.
+                        <br>
+                        При клике пользователь попадет на страницу товара или услуги.
+                    </div>
+                </a>
+                <a class="products__item" href="product.html">
+                    <img src="images/prod2.jpg" alt="" class="products__img">
+                    <div class="products__title">
+                        НАЗВАНИЕ ТОВАРА ИЛИ УСЛУГИ
+                    </div>
+                    <div class="products__text">
+                        Краткое описание товара или услуги - название, модель, предназначение. Сюда можно добавить цену.
+                        <br>
+                        При клике пользователь попадет на страницу товара или услуги.
+                    </div>
+                </a>
+                <a class="products__item products__item--3" href="product.html">
+                    <img src="images/prod3.jpg" alt="" class="products__img">
+                    <div class="products__title">
+                        НАЗВАНИЕ ТОВАРА ИЛИ УСЛУГИ
+                    </div>
+                    <div class="products__text">
+                        Краткое описание товара или услуги - название, модель, предназначение. Сюда можно добавить цену.
+                        <br>
+                        При клике пользователь попадет на страницу товара или услуги.
+                    </div>
+                </a>
+                <a class="products__item" href="product.html">
+                    <img src="images/prod4.jpg" alt="" class="products__img">
+                    <div class="products__title">
+                        НАЗВАНИЕ ТОВАРА ИЛИ УСЛУГИ
+                    </div>
+                    <div class="products__text">
+                        Краткое описание товара или услуги - название, модель, предназначение. Сюда можно добавить цену.
+                        <br>
+                        При клике пользователь попадет на страницу товара или услуги.
+                    </div>
+                </a>
+                <a class="products__item" href="product.html">
+                    <img src="images/prod5.jpg" alt="" class="products__img">
+                    <div class="products__title">
+                        НАЗВАНИЕ ТОВАРА ИЛИ УСЛУГИ
+                    </div>
+                    <div class="products__text">
+                        Краткое описание товара или услуги - название, модель, предназначение. Сюда можно добавить цену.
+                        <br>
+                        При клике пользователь попадет на страницу товара или услуги.
+                    </div>
+                </a>
+                <a class="products__item" href="product.html">
+                    <img src="images/prod6.jpg" alt="" class="products__img">
+                    <div class="products__title">
+                        НАЗВАНИЕ ТОВАРА ИЛИ УСЛУГИ
+                    </div>
+                    <div class="products__text">
+                        Краткое описание товара или услуги - название, модель, предназначение. Сюда можно добавить цену.
+                        <br>
+                        При клике пользователь попадет на страницу товара или услуги.
+                    </div>
+                </a>
+            </div>
+            <div class="copyright">
+                Copyright © yourCompany 2020
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
